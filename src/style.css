@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 550px;
+  height: auto;
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  box-shadow: 0px 2px 7.46px 0px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  align-items: center;
+  color: #ffffff;
+}
+
+nav img {
+  width: 31px;
+}
+
+.header-img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-img p {
+  font-size: 1.25rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.header-title {
+  font-size: 0.75rem;
+  line-height: 15px;
+}
+
+.meme-section {
+  padding-block: 50px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+}
+
+.input-field input {
+  border: 1px solid #d5d4d8;
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  text-indent: 10px;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.btn-section button {
+  width: 477px;
+  height: 40px;
+  cursor: pointer;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+  font-family: "Karla", sans-serif;
+}
+
+.flex-meme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.meme-image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
